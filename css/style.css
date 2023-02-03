@@ -1,0 +1,598 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/* header start */
+.header{
+    width: 100%;
+    padding: 0px 0px 5px 0px;
+    background: #fff;
+}
+ .header .navbar-brand img{
+    width: 92px;
+    margin-left: 32px;
+ }
+.header .nav-item .nav-link{
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #3d5f00;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.header .nav-item .nav-link:hover{
+    color: rgb(139, 93, 238);
+}
+.header .nav-item .active{
+    color: rgb(139, 93, 238);
+}
+/* header end */
+/* banner start */
+.banner{
+    width: 100%;
+    padding: 0px 0px 288px 0px;
+    background: url("../images/banner-bg.png") center top no-repeat;
+    background-size: cover;
+}
+.banner .banner-details{
+    width: 100%;
+    padding: 200px 0px 0px 35px;
+}
+.banner .banner-details h1{
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 65px;
+    letter-spacing: 1px;
+    margin: 40px 0px -3px 0px;
+    color: #3d5f00;
+    font-family: 'Alegreya Sans', sans-serif!important;
+}
+
+.banner .banner-details h2{
+    font-size: 37px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 50px;
+    margin-bottom: 0px;
+    color: #3d5f00;
+    font-family: 'Alegreya Sans', sans-serif!important;
+}
+.banner .banner-details img{
+    width: 23%;
+    margin-top: -8px;
+}
+
+.banner .banner-details p{
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #3d5f00;
+    margin-top: 6px;
+    margin-bottom: 36px;
+}
+.banner .banner-details .button{
+
+}
+.banner .banner-details .btn-primary{
+    border-radius: 20px 0px 20px 0px;
+    background: #3d5f00;
+    padding: 13px 30px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: 1px solid #3d5f00;
+
+}
+.banner .banner-details .btn-primary:hover{
+    background: transparent;
+    color: #3d5f00;
+}
+
+.banner .banner-details .button img{
+    width: 55px;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+/* banner end */
+/* about-us start */
+.about-us{
+    width: 100%;
+    padding: 80px 100px;
+}
+.about-us .us-heading{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px 60px 0px;
+}
+.about-us .us-heading h3{
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    color: #3d5f00;
+    font-family: 'Alegreya Sans', sans-serif!important;
+    display: block;
+    background: url("../images/aboutush3-bg.png") center no-repeat;
+    background-size: 237px;
+}
+.about-us .us-heading p{
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #3d5f00;
+    margin-top: 14px;
+}
+.about-us .inner-us{
+    margin-left: 85px;
+}
+.about-us .inner-us h3{
+    font-size: 38px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 50px;
+    color: #3d5f00;
+    font-family: 'Alegreya Sans', sans-serif!important;
+    margin-bottom: 15px;
+}
+.about-us .inner-us p{
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #3d5f00;
+    margin-bottom: 20px;
+}
+.about-us .inner-us .button .btn-info{
+    border-radius: 20px 0px 20px 0px;
+    background: #3d5f00;
+    padding: 13px 30px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: 1px solid #3d5f00;
+    color: #fff;
+}
+.about-us .inner-us .button .btn-info:hover{
+    background: transparent;
+    color: #3d5f00;
+}
+
+.about-us .inner-us .button img{
+    width: 55px;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+.about-us .video{
+
+}
+.about-us .video img{
+    margin-left: -125px;
+}
+.about-us .video-one img{
+    margin-left: -190px;
+    margin-top: 75px;
+}
+.about-us .second{
+    margin-left: 108px;
+    margin-top: 75px;
+}
+/* about-us end */
+
+/* service start */
+.service{
+    width: 100%;
+    padding: 40px 0px 80px 0px;
+    background: #f9f6f6;
+
+}
+.service .service-heading{
+    width: 100%;
+    padding: 20px 0px 40px 0px;
+    text-align: center;
+}
+.service .service-heading h3{
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    color: #3d5f00;
+    font-family: 'Alegreya Sans', sans-serif!important;
+    display: block;
+    background: url("../images/serviceh3-bg.png") center no-repeat;
+    background-size: 237px;
+}
+.service .service-heading p{
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #3d5f00;
+    margin-top: 14px;
+}
+.service .item{
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 65px;
+    margin-bottom: 25px;
+}
+.service .item .iteam-heading{
+    display: block;
+}
+.service .item .iteam-heading h4{
+    font-size: 44px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    color: #3d5f00;
+    font-family: 'Alegreya Sans', sans-serif!important;
+    display: inline-block;
+    
+}
+.service .item .iteam-heading h3{
+    margin-left: 192px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-bottom: 13px;
+    color: #3d5f00;
+    font-family: 'Alegreya Sans', sans-serif!important;
+    display: inline-block;
+}
+.service .item p{
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #3d5f00;
+    margin-bottom: 35px;
+    margin-top: 12px;
+}
+.service .item .btn-primary{
+    border-radius: 20px 0px 20px 0px;
+    background: #3d5f00;
+    padding: 13px 30px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: 1px solid #3d5f00;
+    color: #fff;
+}
+.service .item .btn-primary:hover{
+    background: transparent;
+    color: #3d5f00;
+}
+.service .item-img img{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: -30px;
+}
+/* service end */
+/* discount start */
+.discount{
+    width: 100%;
+    background: url("../images/discount-bg.png") center top no-repeat;
+    background-size: cover;
+    padding: 30px 0px 108px 0px;
+}
+.discount .inner-discount{
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 70px;
+
+}
+.discount .inner-discount h5{
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 40px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    color: #3d5f00;
+    font-family: 'Alegreya Sans', sans-serif!important;
+}
+.discount .inner-discount h3{
+    font-size: 47px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    color: #3d5f00;
+    font-family: 'Roboto', sans-serif!important;
+    
+}
+.discount .inner-discount h4{
+    font-size: 31px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    line-height: 38px;
+    margin-bottom: 13px;
+    color: #3d5f00;
+    font-family: 'Alegreya Sans', sans-serif!important;
+}
+.discount .inner-discount p{
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #3d5f00;
+    margin-bottom: 30px;
+}
+.discount .inner-discount .button .btn-primary{
+    border-radius: 20px 0px 20px 0px;
+    background: #3d5f00;
+    padding: 12px 29px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: 1px solid #3d5f00;
+    color: #fff;
+}
+.discount .inner-discount .button .btn-primary:hover{
+    background: transparent;
+    color: #3d5f00;
+}
+/* discount end */
+
+/* pricing start */
+.pricing{
+    width: 100%;
+    padding: 80px 200px;
+    text-align: center;
+}
+.pricing .pricing-heading{
+    text-align: center;
+}
+.pricing .pricing-heading h3{
+    font-size: 47px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-bottom: 15px;
+    color: #3d5f00;
+    font-family: 'Roboto', sans-serif!important;
+    display: block;
+    background: url("../images/Title\ -bg.png") center no-repeat;
+    background-size: 237px;
+}
+.pricing .pricing-heading p{
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #3d5f00;
+    margin-bottom: 65px;
+}
+.pricing .pricing-table{
+    padding: 0px 5px;
+}
+.pricing .pricing-table:hover{
+    background-color: #8293ff;
+    color: white;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0, 0.5);
+}
+.pricing .pricing-table .price{
+    padding: 40px 0px;
+    background: #608b14;
+    text-align: center;
+}
+.pricing .pricing-table .price:hover{
+    background: #1e77e2;
+}
+.pricing .pricing-table .price h4{
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    line-height: 39px;
+    margin-bottom: 13px;
+    color: #fff;
+    font-family: 'Alegreya Sans', sans-serif!important;
+}
+.pricing .pricing-table .price h5{
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: 'Alegreya Sans', sans-serif!important;
+}
+.pricing .pricing-table .menu{
+    padding: 30px 0px;
+    background: #f1f1f1;
+    text-align: center;
+}
+.pricing .pricing-table .menu:hover{
+    background: #c8d80e;
+}
+.pricing .pricing-table .menu p{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #3d5f00;
+}
+.pricing .pricing-table .menu .btn-primary{
+    border-radius: 20px 0px 20px 0px;
+    background: #3d5f00;
+    padding: 11px 32px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: 1px solid #3d5f00;
+    color: #fff;
+    margin-top: 20px;
+}
+.pricing .pricing-table .menu .btn-primary:hover{
+    background: transparent;
+    color: #3d5f00;
+}
+/* pricing end */
+/* blog start */
+.blog{
+    width: 100%;
+    padding: 20px 150px 80px 150px;
+    text-align: center;
+}
+.blog .blog-heading{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 35px;
+}
+.blog .blog-heading h3{
+    font-size: 47px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 71px;
+    margin-bottom: 15px;
+    color: #3d5f00;
+    font-family: 'Roboto', sans-serif!important;
+    display: block;
+    background: url("../images/blog-h3-bg.png") center no-repeat;
+    background-size: 237px;
+}
+.blog .blog-heading p{
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #3d5f00;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.blog .blog-items{
+    
+}
+.blog .extra{
+    background: #f1f1f1;
+}
+.blog .blog-items img{
+    
+}
+.blog .blog-items h4{
+    padding: 30px 0px 15px 0px;
+    font-size: 31px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #3d5f00;
+}
+.blog .blog-items p{
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #3d5f00;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.blog .blog-items .btn-primary{
+    border-radius: 20px 0px 20px 0px;
+    background: #3d5f00;
+    padding: 12px 40px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: 1px solid #3d5f00;
+    color: #fff;
+    margin-bottom: 47px;
+    margin-top: 20px;
+}
+.blog .blog-items .btn-primary:hover{
+    background: transparent;
+    color: #3d5f00;
+}
+
+/* blog end */
+/* footer start */
+.footer{
+    width: 100%;
+    padding: 30px 0px 80px 0px;
+    text-align: center;
+    background:url("../images/footer-bg.png") center top no-repeat;
+    background-size: cover;
+}
+.footer .logo img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.footer h2{
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 70px;
+    margin-bottom: -30px;
+    color: #fff;
+}
+.footer h4{
+    padding: 30px 0px 15px 0px;
+    font-size: 31px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #fff;
+}
+.footer .social-icons{
+
+}
+.footer .social-icons li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 30px;
+    margin-top: 5px;
+}
+.footer .social-icons .fa{
+    color: #000;
+}
+.footer .social-icons .fa:hover{
+    color: #fff;
+}
+.footer .copywrite{
+
+}
+.footer .copywrite p{
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #fff;
+}
+.footer .copywrite a{
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer .copywrite a:hover{
+    color: #1e77e2;
+}
+/* footer end */
